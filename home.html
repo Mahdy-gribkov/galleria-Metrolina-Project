@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>galleria Metrolina</h1>
+    <input type="search" id="searchBar" placeholder="search by name" />
+    <button
+      onclick="searchPictures(document.getElementById('searchBar').value)"
+    >
+      search
+    </button>
+    <div id="box" class="row"></div>
+  </body>
+  <!--type="module" you most use type module to import the secound Js file to the first one -->
+  <script  src="app.js"></script>
+</html>
